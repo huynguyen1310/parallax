@@ -1,0 +1,58 @@
+body {
+	font-family: sans-serif,arial,lato;
+	margin: 0;
+	padding: 0;
+}	
+
+h1 {
+	margin: 0 auto;
+}
+
+.img1 ,.img2 ,.img3 {
+	position: relative;
+	opacity: 0.7;
+
+}
+
+.txt {
+    text-align:  center;
+    padding: 20px;
+    background: #f4f4f4;
+    color:#666;
+}
+
+.img1 {
+	background: url('1.jpeg');
+	min-height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.img2 {
+	background: url(2.jpeg);
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.img3{
+	background: url(3.jpeg);
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.head-text {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	letter-spacing:8px;
+	text-transform: uppercase;
+}
